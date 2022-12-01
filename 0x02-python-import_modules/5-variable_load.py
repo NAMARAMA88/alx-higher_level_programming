@@ -3,7 +3,7 @@ from variable_load_5 import a
 
 
 def find_var():
-        print(a)
+    print(a)
 
 
 if __name__ == "__main__":
