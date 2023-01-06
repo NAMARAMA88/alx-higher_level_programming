@@ -1,8 +1,18 @@
 #!/usr/bin/python3
-"""Blocked class module"""
+"""
+Module for a class that prevents dynamic attributes creation
+
+"""
 
 
-class LockedClass:
-    """Object prevents dynamic attributes"""
+class LockedClass():
+    """Class to prevent dynamic attributes creation"""
+    __slots__ = ['first_name']
 
-   __slots__ = ['first_name']
+    def __init__(self):
+        """Init method"""
+        pass
+
+
+
+
